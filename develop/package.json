@@ -1,0 +1,20 @@
+{
+  "name": "good-readme-generator",
+  "version": "1.0.0",
+  "description": "a command-line application that dynamically generates a professional README.md from a user's input",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "good_readme_generator"
+  },
+  "author": "Maximilian Daniel",
+  "license": "ISC"
+}
