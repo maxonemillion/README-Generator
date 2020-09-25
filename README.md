@@ -1,7 +1,5 @@
 # README-Generator
 
-
-
 # test
 
 
@@ -39,4 +37,7 @@ test
 ## Information
 [Github profile]("https://github.com/" + test)
 [Email]test
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4cd7ff63ddd4b10d21b5a55b120ae63f2d817316
