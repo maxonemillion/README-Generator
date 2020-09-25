@@ -1,46 +1,46 @@
-// const choices = require('inquirer/lib/objects/choices');
-
 function generateMarkdown(data) {
 
-    return `
-    
-    # ${data.title}
+return `
 
-    
-    ## Description 
-    ### ${data.description}
-    
-    -----
+# ${data.title}
 
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contribution](#contribution)
-    * [Tests](#tests)
-    * [Information](#info)
-    
 
-    ## Installation
-    ${data.installation}
+## Description 
+### ${data.description}
 
-    ## Usage
-    ${data.usage}
+-----
 
-    ## License
-    This project is licensed by [${data.license}]
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Information](#info)
 
-    ## Contribution
-    ${data.contribution}
 
-    ## Tests
-    ${data.tests}
+## Installation
+${data.installation}
 
-    ## Information
-    [Github profile]("https://github.com/" + ${data.user})
-    [Email]${data.email}
+## Usage
+${data.usage}
 
-    `
+## License
+This project is licensed by [${data.license}]
+[![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
+
+
+## Contribution
+${data.contribution}
+
+## Tests
+${data.tests}
+
+## Information
+[Github profile]("https://github.com/" + ${data.user})
+[Email]${data.email}
+
+`
 }
 
 module.exports = generateMarkdown; 

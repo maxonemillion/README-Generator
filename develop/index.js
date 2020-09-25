@@ -1,7 +1,5 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('util');
-const Choices = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // array of questions for user
@@ -31,10 +29,10 @@ const questions = [
     },
    
     {
-        type: 'input',
+        type: 'list',
         message: "License: ",
         name: "license",
-        Choices: ["MIT", "GNUv3.0", "MPL2.0", "Apache 2.0", "GPL 3.0", "BSD 3", "Unlicensed"]
+        choices: ["MIT", "Apache-2.0", "Unlicensed"]
     },
    
     {
@@ -70,7 +68,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('testREADME.md', generateMarkdown(data), (err) => {
+    fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
         console.log("File created");
     });
@@ -80,7 +78,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then((data) => writeToFile(data))
+        .then((data) => writeToFile('README.md', generateMarkdown(data)))
         .catch((err) => console.log(err)); 
 }
 
