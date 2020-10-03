@@ -1,43 +1,10 @@
 # README-Generator
 
-# test
+## PURPOSE
+The purpose of this assignment was to create a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.
 
+## WHAT I LEARNED
+I learned a lot more about Node and Jest.
 
-## Description 
-### test
-
------
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contribution](#contribution)
-* [Tests](#tests)
-* [Information](#info)
-
-
-## Installation
-test
-
-## Usage
-test
-
-## License
-This project is licensed by [MIT]
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-
-## Contribution
-test
-
-## Tests
-test
-
-## Information
-[Github profile]("https://github.com/" + test)
-[Email]test
-<<<<<<< HEAD
-
-=======
->>>>>>> 4cd7ff63ddd4b10d21b5a55b120ae63f2d817316
+### RUN
+Walkthrough video: https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing
