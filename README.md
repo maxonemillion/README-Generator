@@ -1,11 +1,17 @@
 # README-Generator
 
 ## PURPOSE
-The purpose of this assignment was to create a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.
+This is a command-line application that dynamically generates a professional README.md from a user's input using the Inquirer package.
 
-## WHAT I LEARNED
-I learned a great deal about the node package manager.
+## INSTALLATION
+To install necessary dependencies, run these commands:
+```
+npm install + npm install inquirer
+```
+## USAGE
+Use this application when you need to include a README.md.   [Here](https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing "Link to video showing how to use this app") is a short video showing how to use this application.
 
 ### RUN
 ![project screenshot](develop/images/screenshot.png) 
 Walkthrough video: https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing
+Github repository: 
