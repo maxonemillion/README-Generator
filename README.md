@@ -11,7 +11,9 @@ npm install + npm install inquirer
 ## USAGE
 Use this application when you need to include a README.md.   [Here](https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing "Link to video showing how to use this app") is a short video showing how to use this application.
 
-### RUN
+## SCREENSHOT
 ![project screenshot](develop/images/screenshot.png) 
+
+## INFORMATION
 Walkthrough video: https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing
-Github repository: 
+Github repository: https://github.com/maxonemillion/README-Generator
