@@ -15,7 +15,7 @@ Use this application when you need to include a README.md.   [Here](https://driv
 ![project screenshot](develop/images/screenshot.png) 
 
 ### INFORMATION
-[Here](https://github.com/maxonemillion/README-Generator "Link to github repository") is the Github repository for this project. [Here](https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing) is a link to a walkthrough video demonstrating how to use this application. 
+[Here](https://drive.google.com/file/d/1uVSKajFOKh62oqJgqAZ6lnaHGjgzTZ2P/view?usp=sharing) is a link to a walkthrough video demonstrating how to use this application. 
 
 ### CONTACT
 * max.daniel@utah.edu
